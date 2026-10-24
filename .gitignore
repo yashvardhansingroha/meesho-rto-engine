@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & secrets
+.env
+.venv/
+env/
+venv/
+.streamlit/secrets.toml
+*.log
+
+# Local interview preparation & candidate study materials (not for public repo)
+*.docx
+*INTERVIEW*
+*RESUME*
+build_interview_docx.py
+docx_data/
